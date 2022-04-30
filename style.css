@@ -1,0 +1,200 @@
+body{
+  background-color: #000000;
+  margin: 2px;
+  padding: 2px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-family: 'Mechanismo', sans-serif;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 80px;
+  color : #FFFFFF
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  margin: 70px;
+  color : #FFFFFF;
+  border: 10px;
+  border-color: #FFFFFF;
+  font-family: 'MODERN TYPEWRITER', sans-serif
+  /* background-color: #CCCCCC; */
+}
+
+p {background-color: #8F9498;}
+
+p.alignleft{
+  display: flex;
+  text-align: left;
+}
+
+p.alignright{
+  display: flex;
+  text-align: right;
+}
+
+p1{ /*caption for bella hadid and lil miquela*/
+  text-align: center;
+  font-size: 10px;
+  padding: 2px;
+  margin: 740px;
+  color : #FFFFFF;
+  border: 10px;
+  border-color: #FFFFFF;
+  font-family: 'MODERN TYPEWRITER', italic
+
+}
+
+p2{/*caption for ashley too*/
+  text-align: center;
+  font-size: 10px;
+  padding: 2px;
+  margin: 580px;
+  color : #FFFFFF;
+  border: 10px;
+  border-color: #FFFFFF;
+  font-family: 'MODERN TYPEWRITER', italic
+}
+
+p3{/*caption for logan paul*/
+  text-align: center;
+  font-size: 10px;
+  padding: 2px;
+  margin: 540px;
+  color : #FFFFFF;
+  border: 10px;
+  border-color: #FFFFFF;
+  font-family: 'MODERN TYPEWRITER', italic
+}
+
+p4{/*caption for airplane mode*/
+  text-align: center;
+  font-size: 10px;
+  padding: 2px;
+  margin: 580px;
+  color : #FFFFFF;
+  border: 10px;
+  border-color: #FFFFFF;
+  font-family: 'MODERN TYPEWRITER', italic
+}
+
+.navbar {
+  display: flex;
+  background-color: #EAF075;
+  width: 1000px;
+  padding: 30px;
+  margin-left: 190px;
+  margin-right: 190px;
+  color: #FFFFFF;
+  height: 64px;
+  align-items: center;
+  justify-content: space-around;
+  border: 10px solid #08D6C5;
+  font-family: 'MODERN TYPEWRITER', sans-serif
+}
+
+.img-container {
+    text-align: center;
+    display: block;
+  }
+
+  * {box-sizing:border-box}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
